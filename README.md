@@ -14,5 +14,6 @@ The order of the labs is the following:
 - L2 EVPN GW: to configure EVPN GWs and extend VLANs in a EVPN multi-domain
 - L3 EVPN GW: to configure EVPN GWs and extend a VRF in a EVPN multi-domain
 - EVPN Filtering: to filter and optimize EVPN routes
+- Maintenance mode
 
 Note that the labs need to be completed in the order described above.
