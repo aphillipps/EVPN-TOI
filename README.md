@@ -1,6 +1,7 @@
 Labs for Arista ATD
+-------------------
 
-These labs have been built for the setup used in Arista Test Drive with:
+These labs have been built for the setup used in Arista Test Drive composed of the following device:
 - 2 Spine Switches
     - Spine1
     - Spine2
@@ -26,9 +27,10 @@ The order of the labs is the following:
 - EVPN Filtering: to filter and optimize EVPN routes
 - Maintenance mode
 
-Note that the labs need to be completed in the order described above as the configuratioon are merged from one exercice to another.
+Note that the labs need to be completed in the order described above as the configuration are merged from one exercice to another.
+When you start the Arista ATD, do not choose any proposed Lab. Start with the basic configuration of the devices.
 
-See below the main IP addresses used for the devices
+See below the main IP addresses used for the devices.
 
 | Interface   | Spine1      | Spine2   | Leaf1      | Leaf2       | Leaf3       | Leaf4       | Remote Leaf (Host1) |
 | ----------- | ----------- | ---------| -----------| ----------- | ----------- | ----------- | ----------- |
