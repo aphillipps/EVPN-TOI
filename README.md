@@ -13,7 +13,7 @@ These labs have been built for the setup used in Arista Test Drive with:
     - Host1
     - Host2
 
-![Lab Diagram](Diagram.png)
+![Lab Diagram](diagram.jpg)
 
 The order of the labs is the following:
 - OSPF: to configure the underlay
