@@ -21,6 +21,7 @@ copy flash:startup-config flash:initial_config
 ## Configure MLAG
 
 Leaf1 and Leaf2 are in the same MLAG domain named 12
+
 Leaf3 and Leaf4 are in the same MLAG domain named 34
 
 __1. Configure the MLAG Peer-Link__
@@ -30,6 +31,7 @@ __2. Configure the MLAG Domain__
 __3. Check the MLAG Domains__
 
 ```cli
+
 show mlag
 
 show mlag detail
@@ -43,6 +45,7 @@ show port-channel
 show interface port-Channel 2000
 
 show interface port-Channel 2000 trunk
+
 ```
 
 ## Configure OSPF unnumbered
@@ -54,6 +57,7 @@ __2. Configure OSPF__
 __2. Check OSPF__
 
 ```cli
+
 show interface status
 
 show ip interface brief
