@@ -26,7 +26,7 @@ show bgp evpn
 
 Note that in order to not activate BGP sessions on IPv4 by default, there are 2 choices:
 
-1. Configure "no bgp default ipv4-unicast" under router
+1. Configure "no bgp default ipv4-unicast" under router bgp
 
 2. Desactivate IPv4 when not wanted for each peer and/or neighbor under the IPv4 address-family as in the example below:
 
@@ -38,4 +38,4 @@ router bgp 65000
 
 ```
 
-In thconfiguration files of this lab, both have been done, but one of the 2 choices is sufficient.
+In the configuration files of this lab, both have been done, but one of the 2 choices is sufficient.
