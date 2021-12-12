@@ -6,7 +6,7 @@ Goal of this lab: Configure services on an EVPN/VXLAN Leaf/Spine Architecture an
 
 ## Configure a VXLAN interface
 
-Configure a VXLAN interface with Loopback 1 as souorce IP on Leaf switches 1 to 4
+Configure a VXLAN interface with Loopback 1 as source IP on Leaf switches 1 to 4
 
 ## Check the VXLAN interface
 
