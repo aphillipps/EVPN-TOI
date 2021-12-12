@@ -2,7 +2,7 @@
 
 ## About
 
-Goal of this lab: Configure PVLan services on an EVPN/VXLAN Leaf/Spine Architecture and understand the associated EVPN route-types
+Goal of this lab: Configure PVLAN services on an EVPN/VXLAN Leaf/Spine Architecture and understand the associated EVPN route-types
 
 ## Configure a PVLAN Domain on Leaf switches
 
