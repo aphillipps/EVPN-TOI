@@ -1,4 +1,4 @@
-# LAB: PVLAN
+# LAB: L3 EVPN Gateway
 
 ## About
 
