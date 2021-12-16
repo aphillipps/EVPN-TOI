@@ -51,3 +51,7 @@ You can also do some tcpdumps for the generated pings to check the VNI of the en
 ## Change VLAN for Host1
 
 Configure host1 in a different VLAN (community 2 or isolated) and test connectivity again.
+
+Check the ooutputs above. Do some tcpdumps and you will see that every time the VNI used is the VNI from the source host.
+
+Note that on vEOS you will be able to ping from host1 to host2 even if there are in different communities as PVLAN is not supported in data-pplane, but you will at least see the switch encapsulation behaviour and the MAC address learning.
