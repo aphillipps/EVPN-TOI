@@ -22,7 +22,13 @@ Configure different RDs and RTs for the remote domain
 
 __1. Configure eBGP as Underlay__
 
-Configure eBGP as an underlay between Leaf1 and Leaf2 (on Ethernet interfaces 5 on the Leaf sides) and Host1 (on Ethernet interfaces 3 and 4). Remove the port-channel 2 as it is not needed anymore.
+Configure eBGP as an underlay between
+- Leaf1 and Leaf2: on Ethernet interfaces 5
+- and Host1: on Ethernet interfaces 3 and 4
+
+Remove the port-channel 2 as it is not needed anymore
+
+Use BGP AS 65002 for Host 1
 
 
 __2. Configure eBGP as Overlay__
