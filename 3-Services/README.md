@@ -6,7 +6,7 @@ Goal of this lab: Configure services on an EVPN/VXLAN Leaf/Spine Architecture an
 
 ## Configure a VXLAN interface
 
-Configure a VXLAN interface with Loopback 1 as source IP on Leaf switches 1 to 4
+- Configure a VXLAN interface with Loopback1 as source IP on Leaf switches 1 to 4
 
 ## Check the VXLAN interface
 
@@ -18,13 +18,17 @@ show interface vxlan1
 
 ## Configure a Layer 2 service across the Fabric
 
-Configure VLAN 112
+- Configure VLAN 112
 
-Configure Host1 and Host2 in VLAN 112
+- Configure a VLAN to VNI mapping using VNI 112
+
+- Configure a MAC VRF under BGP for VLAN 112
+
+- Configure Host1 and Host2 in VLAN 112 using an "MLAGed" Port-channel 1 with Ethernet 4 on each Leaf switch
 
 ## Check connectivity between Host1 and Host2
 
-Ping Host1 from Host2 and vice-versa
+- Ping Host1 from Host2 and vice-versa
 
 ## Check EVPN routes and VXLAN outputs
 
