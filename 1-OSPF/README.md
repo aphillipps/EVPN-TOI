@@ -20,9 +20,17 @@ copy flash:startup-config flash:initial_config
 
 ## Configure MLAG
 
-Leaf1 and Leaf2 are in the same MLAG domain named 12
+Leaf1 and Leaf2 are in the same MLAG domain named 12.
 
-Leaf3 and Leaf4 are in the same MLAG domain named 34
+Leaf3 and Leaf4 are in the same MLAG domain named 34.
+
+Use Port-channel 2000 for the peer-link.
+
+VLAN 4094 is used over the MLAG peer-link for peer connectivity.
+
+Disable spanning-tree for this VLAN and add it to a trunk group named MLAG.
+
+Reminder: refer to the first page for the IP addresses.
 
 __1. Configure the MLAG Peer-Link__
 
@@ -53,6 +61,18 @@ show interface port-Channel 2000 trunk
 __1. Configure the Loopback interfaces__
 
 __2. Configure OSPF__
+
+Loopback0 is used as router ID.
+
+Loopback2 is used for the OSPF unnumbered configuration.
+
+Vlan 4093 is used an L3 link between the 2 peers for OSPF.
+
+Disable spanning-tree for this VLAN and add it to a trunk group named LEAF_PEER_L3.
+
+To speed up OSPF neighborship establishment use network type point-to-point.
+
+Change the cost on the L3 peer-link so that the prefered path will always be the direct link to the Spine switches.
 
 __3. Check OSPF__
 
