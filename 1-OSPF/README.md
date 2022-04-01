@@ -54,7 +54,7 @@ __1. Configure the Loopback interfaces__
 
 __2. Configure OSPF__
 
-__2. Check OSPF__
+__3. Check OSPF__
 
 ```cli
 
