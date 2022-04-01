@@ -6,9 +6,9 @@ Goal of this lab: Configure RTC
 
 ## Configure RTC Sessions
 
-Spine1 and Spine2 need to receive all routes
+- Spine1 and Spine2 need to receive all routes
 
-Leaf1-4 only need to receive the "interesting" routes
+- Leaf1-4 only need to receive the "interesting" routes
 
 ## Check the iBGP EVPN Sessions
 
