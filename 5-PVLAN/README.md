@@ -34,7 +34,7 @@ __2. Configure the VLAN to VNI mapping on the VXLAN interfaces__
 
 ## Check connectivity between Host1 and Host2
 
-Ping Host1 from Host2 and vice-versa
+- Ping Host1 from Host2 and vice-versa
 
 As both hosts are in the same community VLAN, you should be able to communicate
 
