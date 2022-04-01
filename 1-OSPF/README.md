@@ -20,21 +20,21 @@ copy flash:startup-config flash:initial_config
 
 ## Configure MLAG
 
-Leaf1 and Leaf2 are in the same MLAG domain named 12.
-
-Leaf3 and Leaf4 are in the same MLAG domain named 34.
-
-Use Port-channel 2000 for the peer-link.
-
-VLAN 4094 is used over the MLAG peer-link for peer connectivity.
-
-Disable spanning-tree for this VLAN and add it to a trunk group named MLAG.
-
-Reminder: refer to the first page for the IP addresses.
-
 __1. Configure the MLAG Peer-Link__
 
+- Use Port-channel 2000 for the Peer-link
+
+- VLAN 4094 is used over the MLAG peer-link for peer connectivity
+
+- Disable spanning-tree for this VLAN and add it to a trunk group named MLAG
+
+Reminder: refer to the [first page](https://github.com/aphillipps/EVPN-TOI) for the IP addresses
+
 __2. Configure the MLAG Domain__
+
+- Leaf1 and Leaf2 are in the same MLAG domain named 12
+
+- Leaf3 and Leaf4 are in the same MLAG domain named 34
 
 __3. Check the MLAG Domains__
 
@@ -60,19 +60,25 @@ show interface port-Channel 2000 trunk
 
 __1. Configure the Loopback interfaces__
 
+- Loopback0 is used for the router ID
+
+- Loopback1 will be used in the next steps for the VTEP configuration
+
+- Loopback2 is used for the OSPF unnumbered configuration
+
 __2. Configure OSPF__
 
-Loopback0 is used as router ID.
+- VLAN 4093 is used an L3 link between the 2 peers for OSPF
 
-Loopback2 is used for the OSPF unnumbered configuration.
+- Disable spanning-tree for this VLAN and add it to a trunk group named LEAF_PEER_L3
 
-Vlan 4093 is used an L3 link between the 2 peers for OSPF.
+- To speed up OSPF neighborship establishment use network type point-to-point
 
-Disable spanning-tree for this VLAN and add it to a trunk group named LEAF_PEER_L3.
+- Change the cost on the L3 peer-link so that the prefered path will always be the direct link to the Spine switches
 
-To speed up OSPF neighborship establishment use network type point-to-point.
+- Several OSPF timers can be tweaked to improve convergence time in case of failures
 
-Change the cost on the L3 peer-link so that the prefered path will always be the direct link to the Spine switches.
+- Authentication can be used
 
 __3. Check OSPF__
 
