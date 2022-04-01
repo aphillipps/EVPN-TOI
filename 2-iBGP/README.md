@@ -6,11 +6,11 @@ Goal of this lab: Configure iBGP as Overlay
 
 ## Configure iBGP EVPN Sessions
 
-Spine1 and Spine2 are route-reflectors
+- Spine1 and Spine2 are route-reflectors
 
-Spine1 and Spine2 have the same cluster ID
+- Spine1 and Spine2 have the same cluster ID
 
-Leaf1-4 are route-reflector clients
+- Leaf1-4 are route-reflector clients
 
 ## Check the iBGP EVPN Sessions
 
