@@ -4,6 +4,19 @@
 
 Goal of this lab: Configure iBGP as Overlay
 
+## Before you start the Labs
+
+
+```cli
+# Save the base configuration of all devices including Host1 and Host2
+
+write
+
+# Copy the startup config to another file
+
+copy flash:startup-config flash:pre_lab2_config
+```
+
 ## Configure iBGP EVPN Sessions
 
 - Spine1 and Spine2 are route-reflectors
