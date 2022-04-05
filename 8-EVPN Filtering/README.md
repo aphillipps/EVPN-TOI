@@ -4,6 +4,18 @@
 
 Goal of this lab: Filter EVPN routes and inject a default route
 
+## Before you start the Labs
+
+
+```cli
+! Save the base configuration of all devices including Host1 and Host2
+write
+
+! Copy the startup config to another file
+copy flash:startup-config flash:pre_lab0_config
+
+```
+
 ## Configure a default route
 
 Configure a EVPN default route

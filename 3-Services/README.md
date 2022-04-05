@@ -8,12 +8,10 @@ Goal of this lab: Configure services on an EVPN/VXLAN Leaf/Spine Architecture an
 
 
 ```cli
-# Save the base configuration of all devices including Host1 and Host2
-
+! Save the base configuration of all devices including Host1 and Host2
 write
 
-# Copy the startup config to another file
-
+! Copy the startup config to another file
 copy flash:startup-config flash:pre_lab3_config
 ```
 

@@ -4,6 +4,18 @@
 
 Goal of this lab: Understand and test Arista maintenance mode
 
+## Before you start the Labs
+
+
+```cli
+! Save the base configuration of all devices including Host1 and Host2
+write
+
+! Copy the startup config to another file
+copy flash:startup-config flash:pre_lab0_config
+
+```
+
 ## Check underlay routes and OSPF database on switches
 
 Check the underlay routing table (default VRF table)
