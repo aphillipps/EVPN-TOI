@@ -16,8 +16,7 @@ Goal of this lab:
 write
 
 ! Copy the startup config to another file
-copy flash:startup-config flash:pre_lab0_config
-
+copy flash:startup-config flash:pre_lab5_config
 ```
 
 ## Configure a PVLAN Domain on Leaf switches

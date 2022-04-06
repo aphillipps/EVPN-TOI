@@ -12,7 +12,7 @@ Goal of this lab: Filter EVPN routes and inject a default route
 write
 
 ! Copy the startup config to another file
-copy flash:startup-config flash:pre_lab0_config
+copy flash:startup-config flash:pre_lab8_config
 
 ```
 

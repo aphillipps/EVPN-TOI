@@ -14,7 +14,7 @@ Goal of this lab: Understand L2 EVPN Gateways
 write
 
 ! Copy the startup config to another file
-copy flash:startup-config flash:pre_lab0_config
+copy flash:startup-config flash:pre_lab6_config
 
 ```
 

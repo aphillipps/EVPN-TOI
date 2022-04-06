@@ -12,7 +12,7 @@ Goal of this lab: Understand and test Arista maintenance mode
 write
 
 ! Copy the startup config to another file
-copy flash:startup-config flash:pre_lab0_config
+copy flash:startup-config flash:pre_lab9_config
 
 ```
 
