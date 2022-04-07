@@ -4,6 +4,18 @@
 
 Goal of this lab: Understand L3 EVPN Gateways
 
+## Before you start the Labs
+
+
+```cli
+! Save the base configuration of all devices including Host1 and Host2
+write
+
+! Copy the startup config to another file
+copy flash:startup-config flash:pre_lab7_config
+
+```
+
 ## Configure a VRF on all Leaf switches
 
 Configure a VRF named TEST on Leaf 1 to 4 and on Host1

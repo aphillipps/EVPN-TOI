@@ -4,6 +4,17 @@
 
 Goal of this lab: Configure services on an EVPN/VXLAN Leaf/Spine Architecture and understand the EVPN route-types
 
+## Before you start the Labs
+
+
+```cli
+! Save the base configuration of all devices including Host1 and Host2
+write
+
+! Copy the startup config to another file
+copy flash:startup-config flash:pre_lab3_config
+```
+
 ## Configure a VXLAN interface
 
 - Configure a VXLAN interface with Loopback1 as source IP on Leaf switches 1 to 4

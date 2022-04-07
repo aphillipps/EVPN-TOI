@@ -2,11 +2,22 @@
 
 ## About
 
-Goal of this lab: 
+Goal of this lab:
 
 - Configure PVLAN services on an EVPN/VXLAN Leaf/Spine Architecture
 
 - Understand the associated EVPN route-types
+
+## Before you start the Labs
+
+
+```cli
+! Save the base configuration of all devices including Host1 and Host2
+write
+
+! Copy the startup config to another file
+copy flash:startup-config flash:pre_lab5_config
+```
 
 ## Configure a PVLAN Domain on Leaf switches
 
