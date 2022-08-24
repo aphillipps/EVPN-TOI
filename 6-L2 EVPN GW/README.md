@@ -6,6 +6,18 @@ Goal of this lab: Understand L2 EVPN Gateways
 
 ![Lab Diagram](diagramEVPNGW.jpg)
 
+## Before you start the Labs
+
+
+```cli
+! Save the base configuration of all devices including Host1 and Host2
+write
+
+! Copy the startup config to another file
+copy flash:startup-config flash:pre_lab6_config
+
+```
+
 ## Configure Leaf1 and Leaf2 as L2 EVPN Gateways
 
 Configure Leaf1 and Leaf2 as L2 EVPN Gateways
