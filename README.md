@@ -17,6 +17,7 @@ These labs have been built for the setup used in Arista Test Drive composed of t
 ![Lab Diagram](diagram.jpg)
 
 The order of the labs is the following:
+- [MLAG](0-MLAG): MLAG configuration on the Leaf switches
 - [OSPF](1-OSPF): Configuration of the Underlay
 - [iBGP](2-iBGP): Configuration of the Overlay
 - [Services](3-Services): Extending a VLAN over the EVPN Fabric
