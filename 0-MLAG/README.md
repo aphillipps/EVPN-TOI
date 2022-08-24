@@ -8,10 +8,13 @@ Goal of this lab: Configure MLAG
 
 
 ```cli
+
 ! Save the base configuration of all devices including Host1 and Host2
+
 write
 
 ! Copy the startup config to another file
+
 copy flash:startup-config flash:pre_lab0_config
 
 ```
@@ -30,7 +33,7 @@ __1. Configure the MLAG Peer-Link__
 
 **Reminder**: refer to the [first page](https://github.com/aphillipps/EVPN-TOI) for the IP addresses
 
-__2. Configure the MLAG Domain__
+__2. Configure the MLAG Domains__
 
 - Leaf1 and Leaf2 are in the same MLAG domain named 12
 
