@@ -18,7 +18,7 @@ copy flash:startup-config flash:pre_lab0_config
 
 ## Configure MLAG
 
-> Only Leaf* devices are part of this lab.
+> Only **Leaf** devices are part of this lab.
 
 __1. Configure the MLAG Peer-Link__
 
@@ -28,7 +28,7 @@ __1. Configure the MLAG Peer-Link__
 
 - Disable spanning-tree for this VLAN and add it to a trunk group named MLAG
 
-Reminder: refer to the [first page](https://github.com/aphillipps/EVPN-TOI) for the IP addresses
+**Reminder**: refer to the [first page](https://github.com/aphillipps/EVPN-TOI) for the IP addresses
 
 __2. Configure the MLAG Domain__
 
